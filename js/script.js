@@ -189,7 +189,7 @@ function exportData() {
   
   const element = document.createElement ("a")
   
-  element.href = "data:text/csv;charset+utf-8," + encodeURL(csvString)
+  element.href = "data:text/csv;charset+utf-8," + encodeURI(csvString)
 
   element.target = "_blank"
 
